@@ -19,6 +19,13 @@ print(val)
 val = 1 + 1.0
 print(val)
 
+# 複素数
+c1 = 1 + 1j
+c2 = 1 - 2j
+print(c1 + c2) #(2-1j)
+print(c1 * c2) #(3-1j)
+
+
 # 3項演算
 # 文字列はsingle quoteでくくる
 # indexで文字列の切り出し可能
