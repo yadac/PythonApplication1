@@ -30,7 +30,7 @@ print(True + 1)
 print(False + 1)
 
 # 3項演算
-# 文字列はsingle quoteでくくる
+# 文字列はsingle/double quoteでくくる
 # indexで文字列の切り出し可能
 print('ok'[:1] if val > 0 else 'ng'[1:])
 
