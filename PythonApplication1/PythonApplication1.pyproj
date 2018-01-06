@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>4a8bfb9e-4d3f-4d21-9110-174176dd314c</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>SetSample.py</StartupFile>
+    <StartupFile>FlowSample.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="DictionarySample.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FlowSample.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="ListSample.py">
