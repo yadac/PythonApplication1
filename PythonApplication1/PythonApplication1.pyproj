@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>4a8bfb9e-4d3f-4d21-9110-174176dd314c</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>TupleSample.py</StartupFile>
+    <StartupFile>SetSample.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -28,6 +28,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="PythonApplication1.py" />
+    <Compile Include="SetSample.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="TupleSample.py">
       <SubType>Code</SubType>
     </Compile>
