@@ -25,6 +25,9 @@ c2 = 1 - 2j
 print(c1 + c2) #(2-1j)
 print(c1 * c2) #(3-1j)
 
+# bool false is 0, true is 1
+print(True + 1)
+print(False + 1)
 
 # 3項演算
 # 文字列はsingle quoteでくくる
