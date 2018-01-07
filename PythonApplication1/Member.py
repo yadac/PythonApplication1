@@ -2,7 +2,7 @@ class Member:
 	# class val
 	LANG = "JP"
 
-	# constructor
+	# constructor(named __init__)
 	def __init__(self):
 		self.name = ""
 

@@ -42,7 +42,6 @@ if True:
 print(val)
 
 import Member
-
 member = Member.Member()
 member.setName("taro")
 print(member.getName()) # taro
