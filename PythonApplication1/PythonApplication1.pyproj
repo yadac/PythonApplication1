@@ -39,6 +39,9 @@
     <Compile Include="Main.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Member.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="package1\__init__.py">
       <SubType>Code</SubType>
     </Compile>
