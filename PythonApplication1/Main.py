@@ -15,3 +15,8 @@ Sub.printer("hello world")
 import package1
 package1.Sub1.subFnc()
 package1.Sub2.subFnc()
+
+
+import calendar
+print("------------------")
+print(calendar.month(1999,12))
