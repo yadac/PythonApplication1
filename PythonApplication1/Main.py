@@ -22,3 +22,21 @@ package1.Sub2.subFnc()
 import calendar
 print("------------------")
 print(calendar.month(1999,12))
+
+val = 100
+
+def fuc():
+	val = 1 # local scope
+	print(val)
+
+def fuc2():
+	print(val) # module scope
+
+fuc()
+fuc2()
+print(val)
+
+if True:
+	val = 999
+
+print(val)
