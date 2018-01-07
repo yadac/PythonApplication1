@@ -9,3 +9,6 @@ print(lst[1])
 lst[-1] = False
 print(lst[2])
 
+list2 = ["a","b","c",] + [1, 2, 3]
+print(list2)
+print(len(list2))
