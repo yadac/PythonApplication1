@@ -5,8 +5,13 @@ import Sub
 Sub.printer("hello world")
 
 # module exists the other directory 
-from subdir import Sub2
-Sub2.print2("python world")
+#from subdir import Sub2
+#Sub2.subFnc()
 
-import subdir.Sub2
-subdir.Sub2.print2("more python world")
+#import subdir.Sub2
+#subdir.Sub2.subFnc()
+
+# import package1 means, read __init__.py setting.
+import package1
+package1.Sub1.subFnc()
+package1.Sub2.subFnc()

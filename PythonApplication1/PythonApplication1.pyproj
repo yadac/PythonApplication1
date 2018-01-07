@@ -39,6 +39,9 @@
     <Compile Include="Main.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="package1\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="PythonApplication1.py" />
     <Compile Include="SetSample.py">
       <SubType>Code</SubType>
@@ -46,7 +49,10 @@
     <Compile Include="Sub.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="subdir\Sub2.py">
+    <Compile Include="package1\Sub1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="package1\Sub2.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="TupleSample.py">
@@ -55,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="subdir\" />
+    <Folder Include="C:\Users\doruj\source\repos\PythonApplication1\PythonApplication1\package1\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
