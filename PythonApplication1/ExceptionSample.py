@@ -14,3 +14,6 @@ try:
 	raise Exception("hoge")
 except Exception as e:
 	print(e) # hoge
+
+def hogehoge():
+	pass
