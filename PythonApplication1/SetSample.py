@@ -12,3 +12,15 @@ s3 = set("hogehoge")
 print(s3)
 
 # 出力順は保証されない
+
+list1 = ["hoge", "fuga", "foo", "fuga", "foo"]
+
+# merged duplicate value
+sets = set(list1)
+print(sets)
+
+# set calculation
+sets1 = {"a","b","c","d",}
+sets2 = {"a", "c"}
+print(sets1 - sets2)
+print(sets1 & sets2)
