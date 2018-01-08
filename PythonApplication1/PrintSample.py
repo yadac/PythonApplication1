@@ -43,3 +43,6 @@ print(max(tuple2))
 
 set2 = {0, 0.1, True}
 print(max(set2)) # true is 1
+
+# sum() and sort() is same with min/max rule.
+# in case of dictionary, key is used as key.
