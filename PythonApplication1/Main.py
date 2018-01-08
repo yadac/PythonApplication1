@@ -63,3 +63,4 @@ member = Member.Member()
 member.setName("taro")
 print(member.getName()) # taro
 print(member.LANG)
+print(type(member))

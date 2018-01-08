@@ -46,3 +46,12 @@ print(max(set2)) # true is 1
 
 # sum() and sort() is same with min/max rule.
 # in case of dictionary, key is used as key.
+
+# type()
+print(type(123))
+print(type(tuple2))
+print(type(dictionary1))
+print(type(True))
+print(type(set1))
+print(type(array1)) # array = tuple?
+print(type("foobar"))
