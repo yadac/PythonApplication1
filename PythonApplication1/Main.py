@@ -32,9 +32,17 @@ def fuc():
 def fuc2():
 	print(val) # module scope
 
+# multiple args
+def fuc3(a, b, *args):
+	print(a, b, args)
+
 fuc()
 fuc2()
 print(val)
+
+print("------------ fuc3")
+fuc3(1, 2, "a", "b", "c")
+
 
 if True:
 	val = 999
