@@ -36,12 +36,21 @@ def fuc2():
 def fuc3(a, b, *args):
 	print(a, b, args)
 
+# keyword args, it can retrieve value by key  
+def fuc4(a, b, **args):
+	print(a, b, args)
+	print("args[arg2] = " + args["arg2"])
+
+
 fuc()
 fuc2()
 print(val)
 
 print("------------ fuc3")
 fuc3(1, 2, "a", "b", "c")
+
+print("------------ fuc4")
+fuc4(1, 2, arg1 = "a", arg2 = "b", arg3 = "c")
 
 
 if True:
