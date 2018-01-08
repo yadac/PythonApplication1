@@ -27,3 +27,19 @@ print()
 print("-----------------------")
 # format output
 print("%s-%s-%s" % ("foo", "bar", "piyo"))
+
+print("-----------------------")
+# min max
+list2 = [1,2,3,4,5]
+array2 = (1,2,3,4,5)
+print(min(1,2,3,4,5))
+print(max(array2))
+print(max(list2))
+print(min(dictionary1)) # sort by key
+
+tuple2 = (2, 1, False)
+# print(max(tuple1))  # str can not compare to integer
+print(max(tuple2)) 
+
+set2 = {0, 0.1, True}
+print(max(set2)) # true is 1
